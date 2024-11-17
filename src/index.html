@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="..."
+      crossorigin="anonymous"
+    />
+    <title>Isaac Cortez E-Portfolio</title>
+    <link rel="icon" href="../assets/icdc_favicon.ico" type="image/x-icon">
+  </head>
+  <body>
+    <nav>
+      <div class="nav__content">
+        <div class="logo"><a href="index.html">ICDC</a></div>
+        <label for="check" class="checkbox">
+          <i class="ri-menu-line"></i>
+        </label>
+        <input type="checkbox" name="check" id="check" />
+        <ul>
+          <li><a href="#section1">Home</a></li>
+          <li><a href="#section2">About</a></li>
+          <li><a href="#section4">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <section id="section1" class="section1">
+      <div class="section1__content">
+        <h1 class="main-title">ISAAC CORTEZ</h1>
+        <h2 class="greeting">I am a <span id="animated-label"></span></h2>
+        <div class="action__btns1">
+          <a href="portfolio.html" class="btn">View Portfolio</a>
+          <a href="../assets/Cortez_RobertIsaac_Resume_WebDesigner.pdf" class="btn" target="_blank">View Resume</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="section2" class="section2">
+      <div class="section2__container">
+        <div class="content">
+          <p class="subtitle2">Let me introduce myself!</p>
+          <h1 class="title2">
+            About <span>Me</span>
+          </h1>
+          <p class="description2">
+            My name is Robert Isaac Ebita Cortez, but you can call me Isaac! I'm a Web 
+            Designer, UI/UX Designer, and Front-End Developer with a passion for visually 
+            engaging websites. I graduated from Uplift Code Camp, where I gained expertise 
+            in HTML, CSS, JavaScript, and MERN-Stack applications, building a strong 
+            foundation for my tech journey.
+            <br /><br />
+            Driven by a love for web design, I focus on projects that blend aesthetics and 
+            functionality. My bootcamp on Full-Stack Web Development contributed to my focus 
+            on front-end design, where I find joy in creating intuitive, immersive experiences.
+            <br /><br />
+            Outside of work, I’m an Enneagram 6w5 and INTJ who enjoys reading manga, trying 
+            new foods, and working on passion projects. From anime-themed weather apps to 
+            pixel-art-styled sites, I bring creativity to every project.
+        </p>
+        
+        
+          <div class="action__btns">
+            <a href="http://surl.li/tzpdx" target="_blank">
+              <button class="click3"><i class="ri-linkedin-fill"></i></button>
+            </a>
+
+            <a href="mailto:isaacebitacortez@gmail.com" target="_blank">
+              <button class="click3"><i class="ri-mail-line"></i></button>
+            </a>
+
+            <a href="https://github.com/IsaacCortezUIUX" target="_blank">
+              <button class="click3"><i class="ri-github-fill"></i></button>
+            </a>
+          </div>
+        </div>
+        <div class="image2">
+          <img src="../assets/profileimg.jpg" alt="profile" />
+        </div>
+      </div>
+    </section>
+    <section id="section4" class="section4">
+      <div class="contact_container">
+        <div class="contact-box">
+          <div class="left"></div>
+          <div class="right">
+            <h2>Let's link up!</h2>
+            <form
+              action="https://api.web3forms.com/submit"
+              method="POST"
+            >
+              <input
+                type="hidden"
+                name="access_key"
+                value="74aeecfa-7e5b-4c47-a952-521677091c5b"
+              />
+              <input
+                type="text"
+                name="name"
+                class="field"
+                placeholder="Your Name"
+              />
+              <input
+                type="email"
+                name="email"
+                class="field"
+                placeholder="Your Email"
+              />
+              <input
+                type="text"
+                name="phone"
+                class="field"
+                placeholder="Phone"
+              />
+              <textarea name="message" placeholder="Message" class="field"></textarea>
+              <button type="submit" class="btn">Send</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="script.js"></script>
+
+    <footer>
+      <p>@2024 ISAAC CORTEZ. ALL RIGHTS RESERVED.</p>
+    </footer>
+  </body>
+</html>
